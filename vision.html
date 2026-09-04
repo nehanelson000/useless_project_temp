@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analyzing Subject...</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="app-body">
+  <div class="scanner-laser"></div>
+  <div class="container">
+    
+    <!-- Left Panel: Webcam Feed -->
+    <div class="viewport-card">
+      <div class="hud-corner top-left"></div>
+      <div class="hud-corner top-right"></div>
+      <div class="hud-corner bottom-left"></div>
+      <div class="hud-corner bottom-right"></div>
+      
+      <div class="webcam-wrapper">
+        <video id="webcam" autoplay playsinline muted></video>
+        <canvas id="output_canvas"></canvas>
+      </div>
+      <div id="live-insult" class="insult-ticker">CALIBRATING ANXIOUS HUMAN...</div>
+    </div>
+
+    <!-- Right Panel: Tasks & Real-Time Stats -->
+    <div class="dashboard-card">
+      <div class="stage-header">
+        <span id="task-badge">TASK 1 OF 6</span>
+        <h2 id="task-title">INITIALIZING...</h2>
+        <p id="task-instruction">Grant camera permission to begin calibration.</p>
+      </div>
+
+      <div class="timer-container">
+        <div id="timer-bar"></div>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-box">
+          <span class="metric-label">Micro-Jitter</span>
+          <span id="stat-jitter" class="metric-val">0.00 px</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Total Blinks</span>
+          <span id="stat-blinks" class="metric-val">0</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Head Tilt</span>
+          <span id="stat-tilt" class="metric-val">0.0°</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Mouth Tremor</span>
+          <span id="stat-mouth" class="metric-val">0.00</span>
+        </div>
+      </div>
+
+      <div id="verdict-box" class="verdict-card hidden">
+        <h3>FINAL DIAGNOSIS REPORT</h3>
+        <div id="report-content"></div>
+        <br>
+        <button onclick="restartEvaluation()" class="btn-launch">RE-EVALUATE HUMAN</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
