@@ -1,103 +1,70 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
-
-
-
-# [Project Name] 🎯
+# Human Stillness Evaluator 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Jynex
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Neha Nelson - Muthoot Institute of technology and science
+- Member 2: Jithya Suresh - Muthoot Institute of technology and science
 
 ### Project Description
-[2-3 lines about what your project does]
+An interactive browser website that uses MediaPipe FaceMesh computer vision AI to strictly monitor and evaluate human stillness in real time. It tests your ability to stay completely frozen through ridiculous tasks, catching micro-jitter, head tilts, and illegal blinks while roasting you with Malayalam memes.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+In a world overflowing with chaotic movement, blinking, and fidgeting, humanity is losing the ancient, critical discipline of turning into a literal wooden post (pacha maram). Nobody is holding people accountable for their unnecessary eyelid twitches.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We built an over-engineered AI surveillance referee that uses high-density 468-point facial landmark tracking to penalize every millimeter of motion, snap shameful blooper pictures when you fail, and award you an official "Certificate of Human Stillness" with ranks like Jiggly Boba Pearl or Pacha Maram.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- *Languages:* JavaScript (ES6+), HTML5, CSS3
+- *Frameworks/Libraries:* MediaPipe FaceMesh, MediaPipe Camera Utils
+- *APIs/Tools:* WebRTC MediaDevices API, Web Audio API, HTML5 Canvas API, VS Code
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+git clone https://github.com/nehanelson000/useless_project_temp.git
 
 # Run
-[commands]
+cd useless_project_temp
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Task 2](d:\Important Stuff\Screenshots\useless2.png)
+*Live evaluation during Task 2 ("Stare Contest with Dust"), demonstrating MediaPipe 468-point face mesh tracking, live stability metrics (jitter, blinks, tilt), and multi-person face detection.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Task 5](d:\Important Stuff\Screenshots\useless1.png)
+*Game UI during Task 5 ("Mouth Flap Isolation") showing real-time MediaPipe facial landmark mesh overlays, live metric tracking (jitter, blinks, tilt, tremor), and dynamic Malayalam meme alerts upon movement detection.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Task 6 Gameplay](d:\Important Stuff\Screenshots\useless3.png)
+*Completion screen showing Task 6 ("The Ultimate Human Statue") with the final evaluation summary—featuring the calculated Stillness Score, assigned rank, movement stats, and auto-captured "Caught on Camera" blooper snapshots.*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1fnh-kYj9KKxY-U5o_ubec_kELw8n1umY/view?usp=drivesdk]
 
-# Additional Demos
-[Add any extra demo materials/links]
+An interactive browser game that uses MediaPipe FaceMesh computer vision AI to strictly monitor and evaluate human stillness in real time. It tests your ability to stay completely frozen through ridiculous tasks while catching micro-jitter, head tilts, and illegal blinks with Malayalam meme callouts. In a fast-paced world, humanity is losing the ancient art of turning into a literal wooden post (*pacha maram*). Unnecessary eyelid twitches, fidgeting, and random head movements go completely unpunished. We built an over-engineered AI surveillance referee that uses high-density 468-point facial landmark tracking. It penalizes every millimeter of motion, captures shameful blooper frames, assigns you a comedic human rank, and issues an official downloadable "Certificate of Human Stillness."
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Neha Nelson: 
+- Project planning and idea development
+- Front-end development and UI design
+- Implemented MediaPipe FaceMesh integration
+- Implemented stillness metrics, scoring system, and certificate generation
+- GitHub repository management and documentation
 
----
-Made with ❤️ at TinkerHub Useless Projects 
-
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-
-
-
+- Jithya Suresh: 
+- Project planning and idea development
+- Assisted with front-end development and UI design
+- Assisted with testing and debugging
+- Helped refine tasks, jokes, Malayalam memes, and overall user experience
+- Project testing and final improvements
